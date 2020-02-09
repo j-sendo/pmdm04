@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/abFacerPedido"
+        android:title="@string/botonFacerPedido" />
+    <item
+        android:id="@+id/abVerPedTram"
+        android:title="@string/ver_pedidos_en_tr_mite" />
+    <item
+        android:id="@+id/abVerComReal"
+        android:title="@string/botonVerCompReal" />
+    <item
+        android:id="@+id/abSair"
+        android:title="@string/botSair" />
+</menu>

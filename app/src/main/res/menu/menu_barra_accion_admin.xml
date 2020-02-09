@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/abVerPedTram"
+        android:title="@string/ver_pedidos_en_tr_mite" />
+    <item
+        android:id="@+id/abVerPedAcept"
+        android:title="@string/ver_pedidos_aceptados" />
+    <item
+        android:id="@+id/abVerPedRexeit"
+        android:title="@string/ver_pedidos_rexeitados" />
+    <item
+        android:id="@+id/abSair"
+        android:title="@string/botSair" />
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pmdm04">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="pmdm04"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ModificarUsuario"
+            android:parentActivityName=".Actividad_usuario_menu">
+
+        </activity>
+        <!-- Desactivar barra de app por defecto -->
+        <activity
+            android:name=".ActividadRexistro"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pmdm04.Actividad_pedido_productos" />
+        </activity>
+        <activity
+            android:name=".DireccionPedido"
+            android:parentActivityName=".Actividad_pedido_productos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pmdm04.Actividad_pedido_productos" />
+        </activity>
+        <activity
+            android:name=".PedidosAdmin"
+            android:parentActivityName=".Actividad_admin_menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pmdm04.Actividad_usuario_menu" />
+        </activity>
+        <activity
+            android:name=".PedidosUsuario"
+            android:parentActivityName=".Actividad_admin_menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pmdm04.Actividad_usuario_menu" />
+        </activity>
+        <activity
+            android:name=".Actividad_pedido_productos"
+            android:parentActivityName=".Actividad_usuario_menu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.pmdm04.Actividad_usuario_menu" />
+        </activity>
+        <activity
+            android:name=".Actividad_usuario_menu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Actividad_admin_menu"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

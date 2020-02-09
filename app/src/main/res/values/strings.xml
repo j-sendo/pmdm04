@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">pmdm03</string>
+    <string name="botonAcceder">Acceder</string>
+    <string name="botonFacerPedido">Facer pedido</string>
+    <string name="botonVerPedTram">Ver pedidos en trámite</string>
+    <string name="botonVerCompReal">Ver compras realizadas</string>
+    <string name="botSair">Sair</string>
+    <string name="textSelProduct">Selección de productos:</string>
+    <string name="textCantid">Cantidade:</string>
+    <string name="botonSeguinte">Seguinte</string>
+    <string name="radioUsuario">Usuario</string>
+    <string name="radioAdministrador">Administrador</string>
+    <string name="editTextUsuario">Usuario</string>
+    <string name="textTituloTenda">Tenda Virtual</string>
+    <string name="editTextContrasinal">Contrasinal</string>
+    <string name="textPedidosTramite">Pedidos en trámite</string>
+    <string name="textTitulComprReal">Compras realizadas</string>
+    <string name="textTitulComprAcept">Pedidos aceptados</string>
+    <string name="textTitulComprRexeit">Pedidos rexeitados</string>
+    <string name="textDirecEnv">Dirección de envío:</string>
+    <string name="textCidade">Cidade:</string>
+    <string name="textCP">Código postal:</string>
+    <string name="botonFinalizar">Finalizar</string>
+    <string name="ver_pedidos_aceptados">Ver pedidos aceptados</string>
+    <string name="ver_pedidos_en_tr_mite">Ver pedidos en trámite</string>
+    <string name="ver_pedidos_rexeitados">Ver pedidos rexeitados</string>
+    <string name="rexistrarse">Rexistrarse</string>
+    <string name="botonAceptarContPedido">Aceptar</string>
+    <string name="botonRexeitarContPedido">Rexeitar</string>
+    <string name="rexistro">Rexistro</string>
+    <string name="camara">Camara</string>
+    <string name="arquivo">Arquivo</string>
+</resources>
